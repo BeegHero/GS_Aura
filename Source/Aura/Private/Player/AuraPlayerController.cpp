@@ -88,7 +88,7 @@ void AAuraPlayerController::CursorTrace()
 	 *  - UnHighlight LastActor
 	 * D. Both Actors are Valid, but LastActor != ThisActor
 	 *  - UnHighlight LastActor, Highlight ThisActor
-	 * E. Both Actors are Valid, but LastActor != ThisActor
+	 * E. Both Actors are Valid, but LastActor == ThisActor
 	 *  - Hovering over the same object, do Nothing
 	 */
 
