@@ -21,7 +21,6 @@ public:
 	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const override;
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	virtual UAttributeSet* GetAttributeSet() const;
-	virtual void BeginPlay() override;
 
 	FORCEINLINE int32 GetPlayerLevel() const { return Level;}
 protected:

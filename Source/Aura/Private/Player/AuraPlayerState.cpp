@@ -33,12 +33,6 @@ UAttributeSet* AAuraPlayerState::GetAttributeSet() const
 	return AttributeSet;
 }
 
-void AAuraPlayerState::BeginPlay()
-{
-	Super::BeginPlay();
-	AbilitySystemComponent->InitAbilityActorInfo(this, this);
-}
-
 void AAuraPlayerState::OnRep_Level(int32 OldLevel)
 {
 }

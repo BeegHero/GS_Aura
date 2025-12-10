@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UI/WidgetController/AuraWidgetController.h"
+#include "GameplayTagContainer.h"
 #include "AttributeMenuWidgetController.generated.h"
 
 class UAttributeInfo;
@@ -25,6 +26,8 @@ public:
 	FAttributeInfoSignature AttributeInfoDelegate;
 
 protected:
+	void BroadcastAttributeInfo(const FGameplayTag& Tag, const float NewValue) const;
+
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<UAttributeInfo> AttributeInfo;
 };
