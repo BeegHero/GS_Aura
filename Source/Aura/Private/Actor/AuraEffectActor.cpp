@@ -5,11 +5,6 @@
 
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
-#include "AbilitySystemInterface.h"
-#include "AbilitySystem/AuraAbilitySystemComponent.h"
-#include "AbilitySystem/AuraAttributeSet.h"
-#include "Components/SphereComponent.h"
-#include "Developer/TraceServices/Public/TraceServices/Model/TasksProfiler.h"
 
 // Sets default values
 AAuraEffectActor::AAuraEffectActor()
